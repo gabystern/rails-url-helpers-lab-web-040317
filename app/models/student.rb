@@ -14,14 +14,14 @@ class Student < ActiveRecord::Base
   end
 
 
-  def activate_student_path
-     if self.active == false
-       self.active = true
-     elsif self.active == true
-       self.active = true
-     end
-
-   end
+  # def activate_student_path
+  #    if self.active == false
+  #      self.active = true
+  #    elsif self.active == true
+  #      self.active = true
+  #    end
+  #
+  #  end
 
 
 end
